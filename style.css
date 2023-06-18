@@ -1,0 +1,176 @@
+
+.icon-img
+{
+    width: 2.5em;
+}
+header{  
+    width: 100%;
+    height: 100px;
+    
+    position: fixed;
+    top: 0;
+    z-index: 1;  
+}
+.nav-text{
+   color: rgba(0, 0, 0);
+}
+a.nav-text{
+    padding: 1px;
+    font-size: 15px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-weight: 500;
+	line-height: 50px;
+	margin: 0px 11.5px 0 13px;
+	transition: opacity .2s ease-in;
+}
+header div nav{
+    height: 100px;
+    position: fixed;
+    
+}
+.navbar-expand-lg{
+    padding: 0 19px;
+}
+.big-text
+{
+    
+     font-size: 90px;
+     letter-spacing: -6px;
+     line-height: 85px;
+     margin-bottom: 0;
+     text-align: left;
+     background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+     -webkit-background-clip: text;
+	 color: transparent;
+	 display: inline-block;
+	 font-size: 5rem;
+	 line-height: 85px;
+	 padding: 7px 18px 8px;
+	 text-align: left;
+	
+}
+.side-img{
+	width: 37.5rem;
+	
+}
+.middle-section
+{
+    margin-top: 7.6rem;
+}
+.text-left
+{
+    color: #595959;
+	margin: 15px 19px 38px;
+	font-size: 18px;
+	font-weight: 400;
+	width: 25rem;
+
+}
+.form-control{
+    width: 320px;
+    background: rgba(0, 0, 0, .04);
+	border: none;
+	border-radius: 10px;
+	box-sizing: border-box;
+	color: rgba(0, 0, 0, 1);
+	display: block;
+	font-family: Calibre, Helvetica;
+	font-size: 16px;
+	height: 36px;
+	margin-bottom: 12px;
+	padding: 8px 16px;
+}
+.btn-primary{
+    color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	font-weight: 600;
+	line-height: 17px;
+	border-radius: 24px;
+	display: inline-block;
+	font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+	font-size: 19px;
+	height: 2.7rem;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	padding: 0px 20px 0;
+	width: auto;
+}
+.forget-pass
+{ 
+    margin-left: 1rem;
+	font-size: 0.89rem;
+	line-height: 0.5rem;
+	font-weight: 500;
+	text-decoration: underline; 
+   
+}
+.check-box
+{
+    
+	width: 16px;
+	height: 16px;
+	margin-top: 12px;
+    font-size: .89rem;
+   
+}
+.micro-image{
+    width: 121px;
+	height: 44px;
+    border-radius: 4px;
+}
+.apple-image{
+
+    width: 131px;
+	height: 44px;
+}
+.image-app-micro
+{
+    margin: 15px 0px 0px 13px;
+}
+.meta
+{
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+.trademark
+{
+   font-size: 13px;
+   color: #000;
+   font-weight: 500;
+}
+.foot-links a{
+    margin: 10px;
+	font-size: 13px;
+	color: #000;
+	padding: 1px 31px 0 0;
+
+}
+.meta-img{
+    width: 6rem;
+	height: 3rem;
+}
+#language-picker-select
+{
+    border: none;
+    font-size: 13px;
+    color: #000;
+}
+.row{
+    margin-top: 93px;
+}
+footer{
+    height: 69px;
+}
+@media (min-width: 500px)
+{
+	.side-img{
+	margin-left: 0;
+	max-width: 100%;
+	width: 100%;
+	}
+	
+	
+}

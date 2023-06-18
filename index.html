@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Messenger</title>
+    <link href="image/messenger-favicon.png" rel="icon">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+  </head>
+
+<body>
+
+<!--Header-->
+
+  <header>
+  
+    <div class="container-fluid bg-white navi">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            
+            <a href="">
+                <img src="image/logo.png" class="icon-img" alt="icon of Messenger" >
+            </a>
+            
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             
+              <span class="navbar-toggler-icon"></span>
+            
+            </button>
+           
+            <div class="collapse navbar-collapse " id="navbarNav">
+            
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active bg-white">
+                    <a href="https://www.messenger.com/features" class="nav-text" >Features</a>
+                </li>
+                <li class="nav-item bg-white">
+                    <a href="https://www.messenger.com/desktop" class="nav-text">Desktop app</a>
+                </li>
+                <li class="nav-item bg-white">
+                    <a href="https://www.messenger.com/privacy" class="nav-text">Privacy and safety</a>
+                </li>
+                <li class="nav-item bg-white">
+                    <a href="https://developers.facebook.com/products/messenger/" class="nav-text">For developers</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </nav>
+          
+        </div>
+              
+  </header>
+
+<!--Header Close-->
+
+<!--Middle Section-->
+
+  <section class="middle-section">
+
+    <div class="container-fluid">
+
+    <div class="row">
+
+<!--Middle Section Left-->
+
+        <div class="left col-lg-6 col-12 ">
+
+            <h1 class="big-text ">
+                Hang out
+                <br>
+                anytime, 
+                <br>
+                anywhere
+            </h1>
+            
+            <p class="text-left">Messenger makes it easy and fun to stay close to your favourite people.</p> 
+          
+            <form class="pl-3 " onsubmit="return validate()">
+           
+              <div class="form-group">
+
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address or phone number">   
+              
+              </div>
+              
+              <div class="form-group">
+              
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              
+              </div>
+
+              <button type="submit" class="btn btn-primary">Log In</button>
+            
+              <a class="forget-pass" href="">Forgotten your password?</a>
+
+              <div>
+                
+               <input type="checkbox" value="1" class="check-box">
+             
+               <label  class="ml-2" id="n">Keep me signed in</label>
+             
+              </div>
+            
+            </form>
+          <div class="image-app-micro">
+            
+            <a href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12">
+              
+              <img class="apple-image" src="image/apple.svg" alt="">
+            
+            </a>
+            
+            <a href="https://www.microsoft.com/en-us/p/messenger/9wzdncrf0083?activetab=pivot:overviewtab">
+              
+              <img class="micro-image" src="image/micro.jpg" alt="">
+            
+            </a>
+            
+          </div>
+          
+        </div>
+
+<!--Middle Section Left Close-->
+
+<!--Middle Section Right-->
+
+        <div class="col-lg-6 col-12">
+
+            <img class="side-img" src="image/rightimage.png" alt="">
+            
+        </div>
+        
+    </div>
+
+  </div>
+
+  </section>
+
+<!--Middle Section Right Close-->
+
+<!--Middle Section close-->
+
+<!--Footer-->
+
+  <footer>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6 mt-2 col-12">
+
+                <span class="meta"> © Meta&nbsp;2023.</span>
+                <span class="trademark">The Apple and Google Play logos trademarks of their respective owners.</span>
+            
+              </div>
+
+            <div class="col-lg-6 foot-links col-12">
+                <a href="">Privacy Policy</a>
+                
+                <a href="">Cookie Policy
+                
+                <a href="">Terms</a>
+                    
+                    <select name="language-picker-select" id="language-picker-select">
+                
+                      <option lang="de" value="deutsch">Deutsch</option>
+                      <option lang="en" value="english" selected>English(UK)</option>
+                      <option lang="fr" value="francais">Français</option>
+                      <option lang="it" value="italiano">Italiano</option>
+                
+                    </select>
+                   
+                    <img class="meta-img"src="image/meta.jpg" alt="">
+                
+                </a>
+
+            </div>
+            
+        </div>
+      
+      </div>
+    
+    </footer>
+
+<!--Footer Close-->       
+   
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
